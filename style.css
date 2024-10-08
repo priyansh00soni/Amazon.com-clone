@@ -1,0 +1,502 @@
+                  /* Made by Priyansh */
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box; 
+}
+#navbar{
+    height: 60px;
+    background-color: #131820 ;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#nav-logo{
+    height: 45px;
+    width: 8rem;
+    background-image: url(https://pngimg.com/d/amazon_PNG11.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    padding-bottom: 0px;
+}
+.border{
+    border: 1.5px solid transparent ;
+}
+.border:hover{
+    border: 1.5px solid white;
+    border-radius: 2px;
+    
+    /* box 2 */
+
+}
+#deliver{
+      color: #cccccc;
+      font-size: 0.85rem;
+      margin-left: 15px;
+      padding-top: 7px;
+      padding-bottom: 1px;
+     
+}
+#india{
+    font-size: 1rem;
+    margin-left: 3px;
+    
+}
+#add-icon{
+    display: flex;
+    align-items: center; 
+    margin-bottom: 8px;   
+}
+
+    /* box 3 */
+
+#nav-searchbar{
+    display: flex;
+    width: 55rem;
+    height: 40px;
+    justify-content: space-evenly;
+}
+#search-icon{
+    color: black;
+    background-color: #Febd68 ;
+    width: 3rem;
+    border-top-right-radius: 5px;
+    border-end-end-radius: 5px;
+    display: flex;         /* Made by Priyansh */
+    justify-content: center;
+    align-items:center;
+    font-size: 1.2rem;
+}
+#nav-all{
+    background-color: #e6e6e6;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 3.5rem;
+    text-align: center;
+    color:gray ;
+}
+#nav-all:hover{
+    color: black;
+}
+#search-amazon{
+    
+    width: 49rem;
+    font-size: 0.9rem;
+    font-weight: 450;
+    border: none;
+}
+#nav-searchbar:hover{
+    border: #f69c26 3px solid;
+    border-radius: 10px;
+}
+/* box4 */
+#flag{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_India.png/1280px-Flag_of_India.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 21.6px;
+    height: 16.2px;
+    margin-right: 3px;
+    margin-top: 2px;
+}
+#nav-lang{
+ display: flex;
+ color: white;         
+ padding-top: 18px;
+      padding-bottom: 18px;
+      padding-left: 10px;
+}
+#en{
+   background: transparent;
+    height: 15px;
+    border: transparent;
+    color: white;
+    font-weight: bold;
+    
+}
+/* box5 */
+#account{
+     font-size: 0.8rem;
+     padding-top: 11px;
+      padding-bottom: 11px;
+}
+#nav-account-drop{
+    background: transparent;
+    border: transparent;
+    color: white;
+    margin-top: 15px;
+}
+#Account-Lists{
+   font-weight:700;
+}
+#mega-accounts{
+    display: flex;
+}
+/* box6 */
+#returns{
+    font-size: 0.8rem;                    /* Made by Priyansh */
+    padding-top: 11px;
+      padding-bottom: 11px;
+      padding-left: 8px;
+      padding-right: 8px;
+}
+#orders{
+    font-weight: bold;
+}
+/* box7 */
+#cartt{
+    font-size: 0.85rem;
+    font-weight:800;
+    margin-top: 9px;
+}
+#cart-logo{
+    font-size: 1.8rem;
+}
+#cart{
+    display: flex;
+    padding-top: 11px;
+      padding-bottom: 11px;
+      padding-left: 8px;
+      padding-right: 8px;
+}
+/* panel starts */
+#panel{
+    background-color: #232F3E;
+    height: 39px;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content:start;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+/* box1 */
+#panel-all{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+#all-p{
+    padding-top: 3px;
+    font-size: 1rem;
+}
+#menu-logo{
+    font-size: 1.2rem;
+    margin-right: 5px;  
+ 
+}
+#deals{
+    margin-left: 7px;
+    margin-right: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+    padding-right: 5px;
+}
+#customer{
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+#registry{
+  
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+#gift{
+    margin-left: 7px;
+    margin-right: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+   padding-right: 5px;
+}
+#sell{
+    margin-left: 2px;                /* Made by Priyansh */
+    margin-right: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+/* hero section */
+#hero{
+    background-image: url(https://publish.purewow.net/wp-content/uploads/sites/2/2023/05/amazon.png?fit=1200%2C630);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    z-index: 1;
+}
+
+#hero-line{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    top: -350px;
+    background-color: #F5f6f6;
+    margin-bottom: 20px;
+    width: 1472px;
+    left: 23px;
+    font-size: 0.89rem ;
+}
+#click-here{
+   
+    margin-left: 3px;
+    color: #007185;
+}
+#click-here:hover{
+    color: rgb(255, 98, 0);
+    text-decoration: underline;
+}
+/* boxes */
+#boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    z-index: 2;
+    position: relative;
+    top: -290px;
+    
+}
+#back-color{
+    background-color: #e3e6e6;
+    height: 590px;
+    position: relative;
+    top: -60px;
+    
+}
+.box{
+    
+    width: 350px;
+    height: 420px;
+    font-size: 0.8rem; 
+    margin-bottom: 20px;
+    background-color: white;
+    
+}
+
+
+.img-box{
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 300px; 
+    height: 300px; 
+    margin: 10px 0px 25px 0px ;
+    background-position: center;
+}
+.in-box{
+    padding-left: 24px;
+    padding-top: 20px;
+    
+}
+.shop-now{
+    color: #007185;
+}
+.box:hover .shop-now{
+    color: rgb(255, 98, 0);
+}
+#box8img{
+    background-size: 100%;
+}
+#back-to{
+    height: 49px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-color: #37475A;
+color: white;
+font-size: 0.92rem;
+z-index: 7;
+}
+#back-to:hover{
+    background-color: #485668;
+}
+#sign-in{
+   height: 125.6px;                    /* Made by Priyansh */
+   width: 100%;
+   background-color: white;
+   font-size: 0.85rem;
+   position: relative;
+   top: -50px;
+   margin-bottom: -2px;
+}
+#sign{
+    background-color:#FFCC4D ;
+    height: 28px;
+    width: 230px;
+    border: solid orange 1px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-weight:bold;
+    margin-left: 650px;
+}
+/* footer */
+#footer-list-panel{
+    background-color: #232F3E;
+    height: 409px;
+    width: 100%;
+    color: white;
+    display: flex;
+    font-size: 0.95rem;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    margin-top: 15px;
+    color: #dddddd;
+}
+.list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    padding-top: 25px;
+    text-wrap:nowrap;
+}
+li:hover{
+    text-decoration: underline;
+}
+.bold{
+    font-weight: 700;
+    color: white;
+}
+.bold:hover{
+    text-decoration:none
+}
+#list1{
+    padding-bottom: 180px;
+    padding-left: 200px;
+}
+#list2{ padding-bottom: 180px;
+    padding-left: 100px;}
+#list3{ padding-bottom: 230px;
+    padding-left: 60px;}
+#list4{ padding-bottom: 180px;                    /* Made by Priyansh */
+    padding-right: 200px;
+    padding-left: 100px;}
+
+#payments{
+    height: 98px;
+    width: 100%;
+    background-color: #232F3E;
+    position: relative;
+    top: 0.2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#footer-logo{
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 80px;   
+    margin-top: 60px;
+    
+}
+#footer-lang{
+    height: 34.6px;
+    width: 120px;
+    background-color: transparent;
+    border: white 1px solid;
+    border-radius: 2px;
+    margin-left: 10px;
+    color: #dddddd;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+#dollar{height: 34.6px;
+    width: 120px;
+    background-color: transparent;
+    border: white 1px solid;
+    border-radius: 2px;
+    margin-left: 10px;
+    color: #dddddd;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+#india1{height: 34.6px;
+    width: 120px;
+    background-color: transparent;
+    border: white 1px solid;
+    border-radius: 2px;
+    margin-left: 10px;
+    color: #dddddd;
+    font-size: 0.8rem;
+    display: flex;                         
+    justify-content:center;
+    align-items: center;
+}
+#footer-flag{
+    background-size: cover;
+    margin-right: 10px;
+    width: 18px;
+    height: 12px;
+}
+#last{
+    background-color: #131a22;
+    height: 77.2px;
+    width: 100%;
+    color: #dddddd;
+    font-size: 0.8rem;
+    
+}
+#last:hover{
+    text-decoration: underline;
+}
+#first-line{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   padding-top: 30px;
+}
+#last-line{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+#love{
+    color: red;              
+    padding-left: 3px;
+    padding-right: 4px;
+}
+.love{
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+#love-text{
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding-left: 4px;
+}
+#love-text:hover #love{
+   color: magenta;
+}
+                          /* Made by Priyansh */
